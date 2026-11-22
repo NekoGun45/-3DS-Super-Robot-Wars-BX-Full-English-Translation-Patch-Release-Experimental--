@@ -1,6 +1,8 @@
 SUPER ROBOT WARS BX - ENGLISH PATCH V0.9.3
 Installation guide (xdelta patches: SRW_BX_EN_V0.9.3_xdelta.zip)
 ================================================================
+Known emulation quirk: sometimes, after a cutscene, the screen fades to black and stays there. The game hasn't frozen or crashed; just press A once or a few times and it will continue.
+(this also happens in the original japanese game when you emulate it sometimes not a bug or glitch related to any patch)
 
 This package contains only patches. You apply them to files taken
 from your own copy of the game.
