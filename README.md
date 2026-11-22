@@ -1,5 +1,5 @@
-SUPER ROBOT WARS BX - ENGLISH PATCH V0.9.0
-Installation guide (xdelta patches: SRW_BX_EN_V0.9.0_xdelta.zip)
+SUPER ROBOT WARS BX - ENGLISH PATCH V0.9.3
+Installation guide (xdelta patches: SRW_BX_EN_V0.9.3_xdelta.zip)
 ================================================================
 
 This package contains only patches. You apply them to files taken
@@ -125,10 +125,16 @@ IMPORTANT
 REAL HARDWARE (Luma3DS)
 -----------------------
 
-Untested. It may work through Luma3DS's built-in LayeredFS
-(Luma 7.0 or later, with "Enable game patching" turned on):
-copy the same 0004000000127900 folder to
+Tested and working on an original 2DS. Use Luma3DS's built-in LayeredFS
+(Luma 7.0 or later, with "Enable game patching" turned on in Luma's config):
+copy the contents of the 0004000000127900 folder to
 
   SD:\luma\titles\0004000000127900\
 
-If you try it, please let me know whether it works.
+so that you end up with:
+
+  SD:\luma\titles\0004000000127900\code.bin
+  SD:\luma\titles\0004000000127900\romfs\  (the four .bin files)
+
+If the game is installed as a CIA, make sure its seed is installed on the
+console, or it won't boot.
